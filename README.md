@@ -144,23 +144,22 @@ End to End Tests
 npm run test:e2e
 ``` -->
 
-<!-- # REST API
+# REST API
 
 The base URL is
 
+    http://localhost:3000/api
     
 
 The base URL for the live version is
 
-    
+    https://task-mgt-api-b197fb54d870.herokuapp.com/api
 
 ## API Documentaion
 
-You [click here]() to access the Api Documentation
+You [click here](https://task-mgt-api-b197fb54d870.herokuapp.com/schema/swagger) to access the Api Documentation
 
-#### Deployed Link
-
-[click here]() -->
+    https://task-mgt-api-b197fb54d870.herokuapp.com/schema/swagger
 
 
 
