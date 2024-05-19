@@ -26,13 +26,20 @@
 
 ### Introduction
 
-This is a basic REST API used to manage tasks.
+This project is a Task Management System designed using NestJS. It features a RESTful API for managing tasks and incorporates JWT for user authentication. The system supports CRUD operations for task management and uses WebSockets for real-time data streaming, ensuring that all users have the most current view of task statuses.
 
-This api was developed using
-
-- NodeJs
-- NestJs (v10.0.0)
-- Prisma (PostgreSQL database)
+Features
+- User Authentication: Secure login and registration using JWT.
+CRUD Operations: Create, read, update, and delete tasks.
+- Real-Time Updates: WebSocket implementation for live updates of task changes.
+- Data Persistence: Uses PostgreSQL database to store user and task data.
+- Input Validation: Ensures data integrity and security with robust validation.
+Technologies Used
+- NestJS: A progressive Node.js framework for building efficient and scalable server-side applications.
+- Prisma- : ORM for TypeScript and JavaScript (ES7, ES6, ES5).
+PostgreSQL: Open source relational database.
+- JWT: JSON Web Tokens for authentication.
+- Socket.IO: Enables real-time, bidirectional and event-based communication.
 
 ## Getting Started
 
@@ -129,6 +136,19 @@ Access endpoints on localhost
 | PUT    | Edit a task               | /tasks/:id              |
 | DELETE | Delete a task             | /tasks/:id              |
 
+
+## Socket Events
+Connect to WebSocket using Socket Client: 
+
+
+    http://localhost:3000
+
+  For the Live version
+
+    https://task-mgt-api-b197fb54d870.herokuapp.com
+
+Listen for task updates: 
+- Subscribe to ```tasks``` to receive real-time updates.
 
 <!-- ## Run the tests
 
