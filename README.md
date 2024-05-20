@@ -138,7 +138,13 @@ Access endpoints on localhost
 
 
 ## Socket Events
+Add `authorization` Header to socket. For example
+
+    authorization: {access_token}
+
 Connect to WebSocket using Socket Client: 
+
+
 
 
     http://localhost:3000
